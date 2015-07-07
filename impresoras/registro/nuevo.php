@@ -22,10 +22,10 @@ include_once '../../cabecerahtml.php';
 					</tr>
                     <?php /*<tr>
 						<td><?php campos("Imágen","imagen","file");?></td>
-					</tr>*/?>
+					</tr>
                     <tr>
 						<td><?php campos("Orden","orden","text");?></td>
-					</tr>
+					</tr>*/?>
 					<tr><td><?php campos("Guardar","guardar","submit");?></td></tr>
 				</table>
                 </form>

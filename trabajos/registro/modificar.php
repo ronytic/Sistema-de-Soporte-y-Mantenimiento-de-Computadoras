@@ -34,10 +34,10 @@ include_once '../../cabecerahtml.php';
 							}
 						?>
                         </td>
-					</tr>*/?>
+					</tr>
                     <tr>
 						<td><?php campos("Orden","orden","text",$t['orden']);?></td>
-					</tr>
+					</tr>*/?>
 					<tr><td><?php campos("Guardar","guardar","submit");?></td></tr>
 				</table>
                 </form>
