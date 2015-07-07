@@ -26,7 +26,7 @@ if(!empty($_POST)){
 		$referencia= $_SERVER['HTTP_REFERER'];
 		$fecha=date("Y-m-d");
 		$hora=date("H:i:s");
-		if(ereg('^[a-z]*[a-z]$',$usuario)){
+		if(ereg('^[a-z]*[a-z]*',$usuario)){
 			//Administrador 1 2 3 4
 			
 			$reg=$usuarios->loginUsuarios($usuario,$pass);
